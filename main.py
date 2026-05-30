@@ -18,4 +18,4 @@ if user_file:
         #Expandable displayer
         for i in range(len(result)):
             with st.expander(f"Page {i+1} :"):
-                st.info("\n".join(result[i]))
+                st.info("\n\n".join(result[i]))
