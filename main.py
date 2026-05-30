@@ -9,7 +9,7 @@ user_file = st.file_uploader("Upload your file here - ")
 if user_file:
     limit = len_finder(user_file)
 
-    #Setting slider max value
+    #Setting up slider values
     targets = st.slider("Till which page would you like to convert - ", 0, limit, (0, 0))
     start = targets[0]
     end = targets[1]
