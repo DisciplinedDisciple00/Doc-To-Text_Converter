@@ -1,5 +1,7 @@
 from pypdf import PdfReader
 
+
+#Finding length of doc for slider limit
 def len_finder(file):
     reader = PdfReader(file)
     file_pages = reader.pages
@@ -7,6 +9,7 @@ def len_finder(file):
     max_pages = len(file_pages)
     return max_pages
 
+#Main text extraction
 def converter(file, target):
     reader = PdfReader(file)
     file_pages = reader.pages
