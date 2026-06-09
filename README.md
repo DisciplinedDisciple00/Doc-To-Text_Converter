@@ -1,5 +1,5 @@
 Simple Pdf To Text Converter
 
-Made using OCR and Text Extraction.
+Made using OCR(Tesseract) and PyPDF.
 
 Webapp run on streamlit.
